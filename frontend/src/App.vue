@@ -91,10 +91,20 @@ button {
 }
 
 .html-container {
-  border: 1px solid #ccc;
-  padding: 1rem;
+  border: 1px solid #444;
+  padding: 1.5rem;
   white-space: pre-wrap;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: #282c34; /* 深色背景 */
+  color: #abb2bf; /* 淺色文字 */
+  border-radius: 8px; /* 圓角 */
+  overflow-x: auto; /* 內容過長時顯示滾動條 */
+}
+
+.html-container h2 {
+  color: #61afef; /* 標題使用不同的顏色 */
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+  margin-top: 0;
 }
 </style>
